@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@700&family=Ubuntu:wght@300;700&display=swap");
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
   word-wrap: true;
-  width: 540px;
+  width: 768px;
 }
 
 .banner {
@@ -39,6 +39,11 @@ section {
   border: 2px solid #483862;
   border-radius: 10px;
   text-align: center;
+  transition: border 0.3s ease;
+}
+
+.login:hover {
+  border: 6px solid #483862;
 }
 
 #tagline {
@@ -48,15 +53,7 @@ section {
   font-family: "Nunito", sans-serif;
   color: #31cce0;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-}
-
-.plainBut {
-  color: #483862;
-  font-family: "Ubuntu", sans-serif;
-  font-style: bold;
-  text-decoration: none;
 }
 
 #mockup {
@@ -98,24 +95,47 @@ section {
   justify-content: center;
 }
 
+.plainBut {
+  color: #483862;
+  font-family: "Ubuntu", sans-serif;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 700;
+  color: #483862;
+  padding: 16px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.plainBut:hover {
+  color: #31cce0;
+}
+
 .lightBut {
   align-items: center;
-  width: 200px;
-  height: 60px;
+  width: 340px;
+  height: 80px;
   text-decoration: none;
   color: whitesmoke;
   font-family: "Ubuntu", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   border: 1px #483862;
   border-radius: 10px;
   background-color: #483862;
   display: flex;
   justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.lightBut:hover {
+  background-color: #31cce0;
 }
 
 .peng {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .peng img {
   height: auto;
@@ -127,6 +147,10 @@ section {
   font-size: 30px;
   text-align: left;
   padding: 30px;
+}
+
+#footer {
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 768px) {
