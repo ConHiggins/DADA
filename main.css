@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Cantarell:ital,wght@1,700&family=Courgette&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-family: "Courgette", sans-serif;
+  font-size: 80px;
+  color: #483862;
+}
+
+.login {
+  width: 200px;
+  height: 100px;
+  font-family: "Anek+Malayalam", sans-serif;
+  font-size: 40px;
+  color: #483862;
+  padding: 10px;
+  border: 2px solid #483862;
+  border-radius: 4px;
+  text-align: center;
+}
+
+a {
+  color: #483862;
+  font-family: "Anek+Malayalam", sans-serif;
+}
+
+.darkP {
+  color: #483862;
+  font-family: "Anek+Malayalam", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  section div {
+    width: 100%;
+  }
+}
