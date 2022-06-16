@@ -4,7 +4,7 @@
 
 * {
     margin: 0px;
-    padding: 0;
+    padding:10px;
     box-sizing: border-box;
     word-wrap: true;
     width: 768px;
@@ -23,7 +23,12 @@ $font-special: "Nunito", sans-serif;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px;
+
+    img {
+        height:auto;
+        width: 150px;
+    }
 }
 
 
@@ -32,6 +37,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 50px;
 }
 
 .logo {
@@ -41,6 +47,8 @@ section {
     color: $primary-color;
     font-stretch: condensed;
 }
+
+
 
 .login {
 
@@ -173,6 +181,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     img { 
         height:auto;
         width: 50%; 
@@ -182,7 +191,12 @@ section {
         font-family: $font-body;   
         font-size: 30px; 
         text-align: left;
+        justify-content: center;
         padding: 30px;
+    }
+    div {
+
+        padding: 10px;
     }
 }
 
