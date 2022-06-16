@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Cantarell:ital,wght@1,700&family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@700&family=Ubuntu:wght@300;700&display=swap");
 * {
-  margin: 0;
+  margin: 100;
   padding: 0;
   box-sizing: border-box;
+  word-wrap: true;
 }
 
 .banner {
@@ -15,35 +16,61 @@
 section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .logo {
-  font-family: "Courgette", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 80px;
+  font-weight: 700;
   color: #483862;
 }
 
 .login {
   width: 200px;
-  height: 100px;
-  font-family: "Anek+Malayalam", sans-serif;
+  height: 80px;
+  font-family: "Ubuntu", sans-serif;
   font-size: 40px;
+  font-weight: 700;
   color: #483862;
-  padding: 20px;
+  padding: 16px;
   border: 2px solid #483862;
-  border-radius: 4px;
+  border-radius: 10px;
   text-align: center;
+}
+
+#tagline {
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  font-family: "Nunito", sans-serif;
+  color: #31cce0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 a {
   color: #483862;
-  font-family: "Anek+Malayalam", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: bold;
+  text-decoration: none;
+}
+
+#mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  width: 40%;
 }
 
 .darkP {
   color: #483862;
-  font-family: "Anek+Malayalam", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
