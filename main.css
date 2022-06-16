@@ -24,6 +24,7 @@ section {
   font-size: 80px;
   font-weight: 700;
   color: #483862;
+  font-stretch: condensed;
 }
 
 .login {
@@ -50,7 +51,7 @@ section {
   justify-content: center;
 }
 
-a {
+.plainBut {
   color: #483862;
   font-family: "Ubuntu", sans-serif;
   font-style: bold;
@@ -62,15 +63,53 @@ a {
   justify-content: center;
   align-items: center;
 }
-
-img {
+#mockup img {
   height: auto;
-  width: 40%;
+  width: 60%;
+}
+
+.darkLarge {
+  color: #483862;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 60px;
+}
+
+.lightLarge {
+  color: #31cce0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
 }
 
 .darkP {
   color: #483862;
   font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.lightBut {
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  border: 1px #483862;
+  border-radius: 10px;
+  background-color: #483862;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
